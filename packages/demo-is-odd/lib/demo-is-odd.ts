@@ -7,5 +7,6 @@ export function isOdd(num: number): boolean {
   console.log("isOdd called with456:", num);
   console.log("isOdd called with999:", num);
   console.log("isOdd called with999:", num);
+  console.log("isOdd called with1000:", num);
   return num % 2 !== 0;
 }
