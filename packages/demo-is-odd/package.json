@@ -1,0 +1,34 @@
+{
+  "name": "@lenmor-invoicesimple/demo-is-odd-b",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lenmor-invoicesimple/semantic-release-monorepo-test-1",
+    "directory": "packages/demo-is-odd"
+  },
+  "version": "1.0.2",
+  "description": "is odd package",
+  "author": "Lenmor Dimanalata <lenmor@invoicesimple.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/demo-is-odd.js",
+  "types": "dist/demo-is-odd.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "gitHead": "1f452b9a24877d794dc17ee245eb15bcb303a819"
+}
