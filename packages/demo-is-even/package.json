@@ -5,7 +5,7 @@
     "url": "https://github.com/lenmor-invoicesimple/semantic-release-monorepo-test-1",
     "directory": "packages/demo-is-even"
   },
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "is even package",
   "author": "Lenmor Dimanalata <lenmor@invoicesimple.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@lenmor-invoicesimple/demo-is-odd-b": "@lenmor-invoicesimple/demo-is-odd-b@1.0.0"
+    "@lenmor-invoicesimple/demo-is-odd-b": "workspace:*"
   },
   "devDependencies": {
     "jest": "^30.0.5",
