@@ -24,7 +24,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@lenmor-invoicesimple/demo-is-odd-b": "@lenmor-invoicesimple/demo-is-odd-b@latest"
+    "@lenmor-invoicesimple/demo-is-odd-b": "@lenmor-invoicesimple/demo-is-odd-b@1.7.0"
   },
   "devDependencies": {
     "jest": "^30.0.5",
