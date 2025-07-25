@@ -64,8 +64,8 @@ importers:
   packages/demo-is-even:
     dependencies:
       '@lenmor-invoicesimple/demo-is-odd-b':
-        specifier: workspace:*
-        version: link:../demo-is-odd
+        specifier: '@lenmor-invoicesimple/demo-is-odd-b@1.0.0'
+        version: link:@lenmor-invoicesimple/demo-is-odd-b@1.0.0
     devDependencies:
       jest:
         specifier: ^30.0.5
